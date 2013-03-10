@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Trivia Game</title>
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <link href="styles/jquery-ui-1.10.1.custom.css" rel="stylesheet" />
+
+    <script src="scripts/jquery-1.8.2.min.js"></script>
+    <script src="scripts/jquery-ui-1.10.1.custom.js"></script>
+
+    <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/sha1.js"></script>
+
+    <script src="scripts/scripts.js"></script>
+    <script>
+        $(document).ready(onDocumentReady);
+    </script>
+</head>
+<body>
+    <div id="page-wrapper">
+        <header class="clear">
+            <div id="left-side-of-header">
+                <h1 class="text-color-light-yellow"><a href="?">Trivia <span class="text-color-dark-brown">Game</span></a></h1>
+                <div id="current-user-info"></div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a id="newgame-nav-button" href="#">Нова игра</a></li>
+                    <li><a id="get-all-categories-nav-button" href="#">Категории</a></li>
+                    <li><a id="add-new-question-nav-buttton" href="#">Добавяне на въпрос</a></li>
+                    <li><a id="get-all-users-nav-button" href="#">Всички потребители</a></li>
+                    <li><a class="signin-nav-button" href="#">Вход</a></li>
+                    <li><a id="register-nav-button" href="#">Регистрация</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <h2 class="text-color-light-yellow">Начало</h2>
+            <div id="page-info" class="font-size18"></div>
+            <div id="main-container" class="clear">
+
+            </div>
+        </section>
+
+        <footer class="clear">
+            <div id="project-info">Telerik Academy © Курс "JavaScript"</div>
+            <div id="copyright">Copyright ® Yavcho 2013</div>
+        </footer>
+    </div>
+
+    <div id="dialog-registration-confirm">За да използвате тази услуга, трябва да сте влезли с акаунта си.</div>
+</body>
+</html>

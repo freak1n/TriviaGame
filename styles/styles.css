@@ -1,0 +1,271 @@
+#question-tabs, #one-question-container {
+    margin-bottom: 20px;
+}
+#one-question, #add-new-question-container {
+    display: none;
+}
+
+#select-category-form select{
+    width: 200px;
+    height: 30px;
+    margin-right: 30px;
+    border: 1px solid #FFE9C6;
+}
+
+#timer-div {
+    
+    font-size: 2.4em;
+    //border:1px solid red;
+    margin-bottom:20px;
+}
+#dialog-registration-confirm {
+    display: none;
+}
+
+#add-new-category-error-div {
+    width: 206px;
+    height:auto;
+    padding: 5px;
+    font-size:1.6em;
+    text-align:center; 
+    word-wrap: break-word;
+    background-color: #FFEBE8;
+    border: 1px solid #DD3C10;
+    float: right;
+    display:none;
+}
+
+#add-new-category-to-server-button {
+    float:left;
+}
+
+#add-new-category-container {
+    width: 450px;
+}
+
+.registrationErrorInfo {
+    margin-left: 10px;
+    color: #FF5357;
+}
+
+#reg-error-div, #signin-error-div{
+    width: 205px;
+    height:auto;
+    margin-top:30px; 
+    padding: 5px;
+    display: none;
+    font-size:1.6em;
+    text-align:center; 
+    word-wrap: break-word;
+    background-color: #FFEBE8;
+    border: 1px solid #DD3C10;
+}
+
+html, body, header, h1, h2, h3, span, div, ul, nav {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+    a:visited, a:active {
+        outline: 0;
+    }
+
+.text-color-dark-brown {
+    color: #756A57;
+}
+
+.text-color-light-yellow {
+    color: #FFE9C6;
+}
+
+.bg-color-light-yellow {
+   background-color: #FFE9C6;
+}
+
+.font-size18 {
+    font-size:1.8em;
+}
+
+.custom-light-yellow-button {
+    width: 205px;
+    height: 30px;
+    border: 0;
+    background-color: #FFE9C6;
+}
+
+
+    .custom-light-yellow-button:hover {
+            background-color: #756A57;
+            cursor: pointer;
+    }
+
+.clear {
+    min-height: 0;
+    _zoom: 1;
+}
+
+    .clear:after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+
+body {
+    background-color: #2B261E;
+    font-family: Georgia;
+    font-size: 62.5%;
+    color: #756A57;
+}
+
+/*Wrapper of page*/
+#page-wrapper {
+    width: 960px;
+    min-height: 800px;
+    margin: 20px auto;
+}
+
+/*Header*/
+header {
+    padding: 10px;
+}
+
+    /*Left side of header including TITTLE of site, current user information and navigation*/
+    #left-side-of-header {
+        float: left;
+    }
+        /*Tittle of site*/
+        #left-side-of-header h1 {
+            font-size: 3.2em;
+            font-weight: normal;
+            letter-spacing: 2px;
+            text-transform: lowercase;
+            width:200px;
+        }
+
+        /*Current user information div*/
+        #current-user-info {
+            width: 283px;
+            margin-top: 5px;
+            font-size: 1.6em;
+            word-wrap: break-word;
+            cursor: default;
+        }
+
+    /* Navigation of the site */
+    header nav {
+        width: auto;
+        margin-top: 40px;
+        float: right;
+    }
+
+    header nav li {
+        margin-left: 20px;
+        display: inline-block;
+    }
+
+        header nav li a {
+            font-size: 1.4em;
+        }
+
+            header nav li a:hover {
+                color: #FFE9C6;
+            }
+
+/*Section of site*/
+section {
+    border: 10px solid #FFE9C6;
+    min-height: 500px;
+}
+    /*Title of current page*/
+    section h2 {
+        margin: 14px 0 20px 0;
+        font-size: 2.4em;
+        text-align: center;
+    }
+
+        #page-info {
+            text-align: center;
+            margin: -10px 0 15px 0;
+        }
+    
+    /*Content of current Page*/
+    #main-container {
+        padding: 0 20px 30px 20px;
+    }
+
+        /*Inputs for password and text*/
+        section .reg-signin-form input[type=text], .reg-signin-form input[type=password] {
+            width: 200px;
+            margin-top: 6px;
+            margin-bottom: 20px;
+        }
+
+/*Table of all users*/
+#all-users-table {
+    border-collapse: collapse;
+}
+    #all-users-table tbody tr:hover {
+        background-color: #424242;
+        cursor: pointer;
+    }
+
+    #all-users-table td {
+        border: 1px solid #756A57;
+        text-align: center;
+    }
+
+    #some-user-score span {
+        font-weight: bold;
+    }
+
+#all-categories-container {
+    margin-top:15px;
+}
+    #all-categories-container a:hover {
+        color: #FFE9C6;
+        
+    }
+
+#questions-accordion {
+    font-size: 1.5em;
+    margin-bottom:20px;
+}
+
+    #questions-accordion h3 {
+        font-size: 1.4em;
+    }
+
+    #questions-accordion label {
+        display: block;
+    }
+
+
+/*Footer*/
+footer {
+    height: 30px;
+    cursor: default;
+}
+
+    footer div {
+        margin-top: 14px;
+        font-size: 1.2em;
+    }
+
+    footer #project-info {
+        margin-left: 5px;
+        float: left;
+    }
+
+    footer #copyright {
+        margin-right: 5px;
+        float: right;
+    }
